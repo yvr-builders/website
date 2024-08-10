@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>yvr.builders</title>
+    <style type="text/css">
+      /* Remove page spacing */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      /* Set up flexbox layout and page styles */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #050505;
+        flex-direction: column;
+        display: flex;
+        color: #aaa;
+      }
+      /* Set up padding and alignment for top-level elements */
+      header, main, footer {
+        padding: 1em;
+      }
+      header, footer {
+        text-align: center;
+      }
+      /* Give header a nice gradient */
+      header {
+        background: rgb(0,0,0);
+        background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(26,44,59,1) 100%);
+      }
+      /* Put main content area in a box */
+      main {
+        margin: 2em auto;
+        max-width: 800px;
+        min-width: 600px;
+        flex-grow: 1;
+      }
+      footer {
+        border-top: 1px solid #151515;
+        background-color: rgba(26,44,59,0.2);
+      }
+      /* Set up text styles */
+      h1 {
+        color: #aaa;
+      }
+      .button {
+        background-color: rgba(26,44,59,1);
+        color: #fff;
+        border: none;
+        padding: 0.5em 1em;
+        border-radius: 5px;
+        text-decoration: none;
+        display: inline-block;
+        margin: 1em;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="logo.png" alt="YVR Builders" />
+    </header>
+    <main>
+      <h1>Let's build together!</h1>
+      <p>
+        YVR Builders is a community of tech builders in Vancouver.
+        It's a space for builders to connect, share ideas, collaborate on
+        projects, find users, and gather feedback.
+      </p>
+      <p>
+        Promotion of products or services will be considered spam unless
+        clearly engaging with the community to gather feedback and not just
+        to sell. Advertisement will not be tolerated, but open discussion of
+        your products is encouraged.
+      </p>
+      <p>
+        We follow the
+        <a href="https://www.contributor-covenant.org/version/2/1/code_of_conduct/">
+          Contributor Covenant Code of Conduct
+        </a>.
+        For enforcement matters, contact qard on Discord.
+      </p>
+      <a class="button" href="https://discord.gg/t8sf7XphCY">Join us on Discord!</a>
+    </main>
+    <footer>
+      <p>&copy; 2024 Stephen Belanger</p>
+    </footer>
+  </body>
+</html>
